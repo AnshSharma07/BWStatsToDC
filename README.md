@@ -23,14 +23,14 @@ BWStatsToDC allows players to view BedWars statistics and leaderboards directly 
 ### Player Statistics
 
 
-/bwstats <player>
+/bwstats <player> 
 Displays a player's BedWars statistics.
 
 ### Leaderboards
 
-/bwlb wins
-/bwlb kills
-/bwlb beds
+/bwlb wins 
+/bwlb kills 
+/bwlb beds 
 Displays the top players for the selected statistic.
 
 ## Configuration
