@@ -77,9 +77,6 @@ No Minecraft permissions are required.
 
 Discord users can access commands in the configured Discord channel.
 
-## Screenshots
-
-Stat cards and leaderboard images are generated automatically and sent directly in Discord.
 
 ## Support
 
