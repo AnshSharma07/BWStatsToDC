@@ -41,12 +41,19 @@ Displays the top players for the selected statistic.
 ## Configuration
 
 Example configuration:
+
 yaml
+
 bot-token: "YOUR_DISCORD_BOT_TOKEN"
+
 allowed-channel: 123456789012345678
+
 database:
+
   path: "plugins/BedWars1058/Cache/shop.db"
+
 branding:
+
   server-name: "My Server"
 
 
