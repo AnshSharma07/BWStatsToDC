@@ -22,15 +22,19 @@ BWStatsToDC allows players to view BedWars statistics and leaderboards directly 
 
 ### Player Statistics
 
-* /bwstats <player>
-* 
+```text
+/bwstats <player>
+```
+
 Displays a player's BedWars statistics.
 
-
 ### Leaderboards
-* /bwlb wins 
-* /bwlb kills 
-* /bwlb beds 
+
+```text
+/bwlb wins
+/bwlb kills
+/bwlb beds
+```
 
 Displays the top players for the selected statistic.
 
@@ -38,25 +42,21 @@ Displays the top players for the selected statistic.
 
 Example configuration:
 
-yaml
-
+```yaml
 bot-token: "YOUR_DISCORD_BOT_TOKEN"
 
 allowed-channel: 123456789012345678
 
 database:
-
   path: "plugins/BedWars1058/Cache/shop.db"
 
 branding:
-
   server-name: "My Server"
-
+```
 
 ## Requirements
 
 * Java 21
-* Bedwars1058 v25.2
 * Discord Bot Token
 * Spigot Server
 * SQLite BedWars Database
@@ -77,6 +77,9 @@ No Minecraft permissions are required.
 
 Discord users can access commands in the configured Discord channel.
 
+## Screenshots
+
+Stat cards and leaderboard images are generated automatically and sent directly in Discord.
 
 ## Support
 
@@ -94,7 +97,7 @@ You may not:
 * Reupload the plugin
 * Sell copies of the plugin
 * Claim ownership of the plugin
-* Decomplie, Modify and redistribute the plugin without permission
+* Modify and redistribute the plugin without permission
 
 ## Version
 
