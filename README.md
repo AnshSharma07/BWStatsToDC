@@ -22,19 +22,15 @@ BWStatsToDC allows players to view BedWars statistics and leaderboards directly 
 
 ### Player Statistics
 
-
-/bwstats <player> 
-
+* /bwstats <player>
+* 
 Displays a player's BedWars statistics.
 
 
 ### Leaderboards
-
-/bwlb wins 
-
-/bwlb kills 
-
-/bwlb beds 
+* /bwlb wins 
+* /bwlb kills 
+* /bwlb beds 
 
 Displays the top players for the selected statistic.
 
@@ -60,6 +56,7 @@ branding:
 ## Requirements
 
 * Java 21
+* Bedwars1058 v25.2
 * Discord Bot Token
 * Spigot Server
 * SQLite BedWars Database
